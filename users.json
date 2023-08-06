@@ -1,0 +1,6 @@
+{
+    "username1": {
+        "images": ["image1.jpg", "image2.jpg"],
+        "paragraphs": ["Text for image1", "Text for image2"]
+    }
+}
