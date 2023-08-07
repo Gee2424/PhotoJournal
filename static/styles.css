@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+form {
+    margin: 15px 0;
+}
+
+textarea {
+    width: 100%;
+}
