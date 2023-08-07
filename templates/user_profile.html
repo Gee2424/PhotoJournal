@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ username }}'s Profile - PhotoJournal</title>
+</head>
+<body>
+    <h1>Welcome, {{ username }}!</h1>
+    <h2>Your Posts:</h2>
+    <ul>
+        {% for image, paragraph in images, paragraphs %}
+        <li>
+            <img src="{{ url_for('uploaded_file', filename=image) }}" alt="Uploaded Image" width="200">
+            <p>{{ paragraph }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    <h2>Post a New Picture and Paragraph:</h2>
+    <form action="{{ url_for('profile') }}" method="post" enctype="multipart/form-data">
+        <label for="image">Choose an image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        <label for="paragraph">Write a paragraph:</label>
+        <textarea id="paragraph" name="paragraph" rows="4" cols="50" required></textarea>
+        <input type="submit" value="Post">
+    </form>
+</body>
+</html>
