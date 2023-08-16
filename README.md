@@ -37,3 +37,4 @@ The application will be accessible at [http://127.0.0.1:5000/](http://127.0.0.1:
 2. Enter your username to log in (for this example, usernames are not validated).
 3. Post images and paragraphs to your profile.
 4. View your saved content by visiting your profile.
+***
