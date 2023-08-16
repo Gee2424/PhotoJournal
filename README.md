@@ -30,7 +30,7 @@ python app.py
 ```
 
 The application will be accessible at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
-
+***
 ## Usage
 
 1. Visit the main page and click on the login link.
