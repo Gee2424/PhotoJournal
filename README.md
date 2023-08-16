@@ -21,7 +21,7 @@ PhotoJournal is a web application that allows users to post, save, and view imag
    ```sh
    pip install -r requirements.txt
    ```
-
+***
 ## Running the Application
 
 Run the following command to start the Flask development server:
